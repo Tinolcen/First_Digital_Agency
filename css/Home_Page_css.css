@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Barlow-BlackItalic';
+    src: url(C:\Users\1\OneDrive\Рабочий%20стод\Digital%20Agency\fonts/Barlow-BlackItalic.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Barlow-Bold';
+    src: url(C:\Users\1\OneDrive\Рабочий%20стод\Digital%20Agency\fonts/Barlow-Bold.ttf) format('truetype');
+} 
+/* Шрифт Barlow */
+*{
+    /*Отступы*/
+    margin: 0px auto;
+}
+body{
+    background-color: #141414;
+}
+header{
+    /*Цвет фона*/
+    opacity: 1.1;
+    background-color: #191919;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    padding-bottom: 20px;
+}
+a{
+    /*Убирает черту под ссылками*/
+    text-decoration: none;
+}
+header div ul li a{
+    /*Размер шрифта*/
+    font-size: 20px;
+    color: #ffffff;
+    padding-right: 30px;
+}
+header div p{
+    /*Шрифт*/
+    font-family: 'Barlow-Bold';
+    /*Размер шрифта*/
+    font-size: 22px;
+    /*Жирность (можно задать в виде числа)(bold=700)*/
+    font-weight: bold;
+    /*Цвет текста*/
+    color: #ffffff;
+    padding-top: 20px;
+}
+header div{
+    padding-top: 20px;
+}
+header div img{
+    padding-right: 11px;
+    width: 60px; 
+    height: 60px;
+}
+.FloatLeft{
+    float: left;
+}
+header button {
+    float: right;
+}
+.Home{
+    background-color: #262626;
+    padding: 15px 30px;
+    margin-right: 28px;
+    border-radius: 6px;
+}
+header button{
+    background-color: #9eff00;
+    width: 120px;
+    height: 50px;
+    border: none;
+    font-size: 16px;
+    border-radius: 6px;    
+    font-weight: bold;
+}
+ul li{
+    display: inline;
+}
+
+li {
+    /* Убираем маркеры */
+    list-style-type: none;
+}
+
+
+
+
+
+.Hero{
+    background: url(C:/Users/1/OneDrive/Рабочий%20стод/Digital%20Agency/image/Hero_Section.png) repeat-y;
+    height: 100%;
+    background-size: 100% 100%;
+    padding-bottom: 274px;
+}
+#lih1{
+    font-size: 68px;
+    font-family: 'Barlow-Bold';
+    color: #ffffff;
+    text-align: center;
+    padding-top: 112px;
+}
+#lip{
+    width: auto;
+    display: table;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Barlow-Bold';
+    color: #98989a;
+    background-color: #1b1b1b;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 40px;
+}
+.cube{
+    color: #ffffff;
+    background-color: #262626;
+    padding: 14px 20px;
+    margin-right: 6px;
+    border-radius: 6px;
+}
+.Hero_but{
+    margin-top: 50px;
+    text-align: center;
+}
+.GreenBut{
+    font-size: 18px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #1b1b1b;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    padding: 15px 30px;
+    margin-right: 13px;
+}
+.GrayBut{
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #9eff00;
+    border-radius: 6px;
+    border-style: none;
+    padding: 15px 30px;
+}
+.GreenBut a{
+    color: #ffffff;
+}
+.GrayBut a{
+    color: #000000;
+}
